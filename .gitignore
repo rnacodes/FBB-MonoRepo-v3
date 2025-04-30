@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FBB.Console/obj
+/FBB.Engine/.vs/FBB.Engine
+/FBB.Engine/obj
+/FBB.WebApp/obj
+/.vs
