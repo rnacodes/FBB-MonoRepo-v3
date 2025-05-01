@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.35906.104 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.Engine", "FBB.Engine.csproj", "{1FD25FA6-98FE-85DD-D726-580CD408DAF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.Console", "..\FBB.Console\FBB.Console.csproj", "{FFD99C12-0DA3-4682-AFD8-47075B1D1C71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.ConsoleApp", "..\FBB.Console\FBB.ConsoleApp.csproj", "{FFD99C12-0DA3-4682-AFD8-47075B1D1C71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.WebApp", "..\FBB.WebApp\FBB.WebApp.csproj", "{8914E01F-0ED6-46B7-B47D-2A5E9674064D}"
 EndProject

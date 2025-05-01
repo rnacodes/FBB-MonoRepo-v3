@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FBB.Engine\FBB.Engine.csproj" />
+    <ProjectReference Include="..\FBB.WebApp\FBB.WebApp.csproj" />
+  </ItemGroup>
+
 </Project>

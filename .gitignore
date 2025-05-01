@@ -7,3 +7,6 @@
 /FBB.Engine/obj
 /FBB.WebApp/obj
 /.vs
+/FBB.Engine/bin/Debug/net9.0
+/FBB.Engine/.vs/ProjectEvaluation
+/FBB.WebApp/bin/Debug/net9.0

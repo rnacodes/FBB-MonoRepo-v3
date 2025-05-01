@@ -1,0 +1,28 @@
+[
+  {
+    "Name": "FBB.Console",
+    "Projects": [
+      {
+        "Path": "FBB.Engine.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\FBB.Console\\FBB.ConsoleApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "FBB.WebApp",
+    "Projects": [
+      {
+        "Path": "FBB.Engine.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\FBB.WebApp\\FBB.WebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
