@@ -1,5 +1,6 @@
 ﻿using FBB.Engine.Classes;
 using FBB.Engine.Extensions;
+using static FBB.Engine.Classes.DialogOptions;
 
 namespace FBB.Engine.Extensions
 {
@@ -12,7 +13,7 @@ namespace FBB.Engine.Extensions
 
         public static bool IsOptionValid(this string input)
         {
-            return ConsoleDialogOptions.MenuOptions.ContainsKey(input);
+            return MenuOptions.ContainsKey(input);
         }
 
     /* ORIGINAL METHOD AS I WROTE IT

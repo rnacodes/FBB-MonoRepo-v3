@@ -1,7 +1,7 @@
 ﻿using FBB.Engine.Extensions;    
 using static FBB.Engine.Classes.DialogOptions;
-using FBB.Engine.Classes;
-using static FBB.Engine.Classes.MagicTranslator;
+using FBB.Engine.Classes; //Why is this redundant?
+using static FBB.Engine.Classes.MagicTranslator; //Why is this redundant?
 
 namespace FBB.ConsoleApp
 {
@@ -32,7 +32,7 @@ namespace FBB.ConsoleApp
             {
                 Console.WriteLine("Please enter a valid response.");
 
-                userActionResponse = Console.ReadLine().ToLower();
+                userActionResponse = Console.ReadLine();//.ToLower();
             }
 
             switch (userActionResponse)
@@ -51,22 +51,25 @@ namespace FBB.ConsoleApp
                 case ("3"):
                     Add();
                     break;
-            }
-            ;
+            };
 
-            var asdf = ConsoleDialogOptions.NewMenuOptions.Translate;
+            //Enum will be incorporated in future update
+            /*
+            var asdf = NewMenuOptions.Translate;
 
             switch (asdf)
             {
-                case ConsoleDialogOptions.NewMenuOptions.Translate:
+                case NewMenuOptions.Translate:
                     Console.WriteLine("Translate");
                     break;
-                case ConsoleDialogOptions.NewMenuOptions.Print:
+                case NewMenuOptions.Print:
                     Console.WriteLine("Print");
                     break;
-                case ConsoleDialogOptions.NewMenuOptions.Add:
+                case NewMenuOptions.Add:
                     Console.WriteLine("Add");
                     break;
             }
+            */
         }
     }
+}
